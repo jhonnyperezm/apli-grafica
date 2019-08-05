@@ -1,0 +1,11 @@
+.center{
+    display: flex;
+    justify-content: center
+}
+a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(102, 153, 26);
+    border-radius: 5px;
+}
