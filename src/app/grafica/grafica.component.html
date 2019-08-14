@@ -1,15 +1,13 @@
-
 <div style="text-align:center">
   <h1>
     Bienvenido a {{ title }}!
   </h1>
 </div>
-<highcharts-chart 
-  id="MediosdPPrincipal"
-  [Highcharts]="Highcharts"
-  [options]="graficaPrueba"
-  style="width: 100%; height: 400px; display: block;">
-</highcharts-chart>
+<div id="MediosdPPrincipal">
+  <highcharts-chart  [Highcharts]="Highcharts" [options]="graficaPrueba"
+    style="width: 800px; height: 400px; display: block;">
+  </highcharts-chart>
+</div>
 <div class="center">
-  <a [routerLink]="[ '/prueba' ]">name</a>
+  <a [routerLink]="[ '/prueba' ]">Pagina 2</a>
 </div>
